@@ -1,6 +1,6 @@
-<mxfile host="www.draw.io" modified="2019-10-26T18:58:01.937Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/77.0.3865.120 Safari/537.36" etag="7I4wPbpw3FmzOWIhusM2" version="12.1.7" type="github" pages="1">
+<mxfile host="www.draw.io" modified="2019-10-26T19:55:00.246Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/77.0.3865.120 Safari/537.36" etag="H7Ok2lkNrxVZ3rkS7jFk" version="12.1.7" type="github" pages="1">
   <diagram id="dvayOvmPAuLTwOydBaXN" name="Page-1">
-    <mxGraphModel dx="1422" dy="794" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1100" pageHeight="850" math="0" shadow="0">
+    <mxGraphModel dx="1422" dy="745" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1100" pageHeight="850" math="0" shadow="0">
       <root>
         <mxCell id="0"/>
         <mxCell id="1" parent="0"/>
@@ -77,7 +77,7 @@
           <mxGeometry x="510" y="590" width="40" height="20" as="geometry"/>
         </mxCell>
         <mxCell id="mYEQ8QdQxq5M0N4z0mq4-1" value="&lt;b&gt;A =&amp;gt; Pressure Data (Float32 rostopic)&lt;/b&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
-          <mxGeometry x="825" y="100" width="230" height="20" as="geometry"/>
+          <mxGeometry x="817.5" y="100" width="245" height="20" as="geometry"/>
         </mxCell>
         <mxCell id="mYEQ8QdQxq5M0N4z0mq4-2" value="&lt;b&gt;B =&amp;gt; Depth Data (Float32 rostopic)&lt;/b&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="820" y="130" width="220" height="20" as="geometry"/>
