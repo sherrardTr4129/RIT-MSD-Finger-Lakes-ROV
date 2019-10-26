@@ -1,1 +1,73 @@
-<mxfile host="www.draw.io" modified="2019-10-25T23:41:36.005Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/77.0.3865.120 Safari/537.36" version="12.1.7" etag="CZgJfu9pNOELR5UhI6q4" type="github" pages="1"><diagram id="v-m0zCEiFKJnq1W9DyKo">UzV2zq1wL0osyPDNT0nNUTV2VTV2LsrPL4GwciucU3NyVI0MMlNUjV1UjYwMgFjVyA2HrCFY1qAgsSg1rwSLBiADYTaQg2Y1AA==</diagram></mxfile>
+<mxfile host="www.draw.io" modified="2019-10-26T00:03:10.702Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/77.0.3865.120 Safari/537.36" etag="nZMSkJREVukMeuf1-Ap8" version="12.1.7" type="github" pages="1">
+  <diagram id="v-m0zCEiFKJnq1W9DyKo" name="Page-1">
+    <mxGraphModel dx="1422" dy="794" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1100" pageHeight="850" math="0" shadow="0">
+      <root>
+        <mxCell id="0"/>
+        <mxCell id="1" parent="0"/>
+        <mxCell id="0yQHLkLhNADpxCJvxs6u-4" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f5f5f5;strokeColor=#666666;fontColor=#333333;" vertex="1" parent="1">
+          <mxGeometry x="200" y="70" width="860" height="610" as="geometry"/>
+        </mxCell>
+        <mxCell id="0yQHLkLhNADpxCJvxs6u-16" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.25;exitY=1;exitDx=0;exitDy=0;entryX=0;entryY=0.75;entryDx=0;entryDy=0;" edge="1" parent="1" source="0yQHLkLhNADpxCJvxs6u-9" target="0yQHLkLhNADpxCJvxs6u-15">
+          <mxGeometry relative="1" as="geometry"/>
+        </mxCell>
+        <mxCell id="0yQHLkLhNADpxCJvxs6u-17" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0;entryY=0.25;entryDx=0;entryDy=0;" edge="1" parent="1" source="0yQHLkLhNADpxCJvxs6u-9" target="0yQHLkLhNADpxCJvxs6u-15">
+          <mxGeometry relative="1" as="geometry"/>
+        </mxCell>
+        <mxCell id="0yQHLkLhNADpxCJvxs6u-19" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.25;exitDx=0;exitDy=0;entryX=0.75;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="0yQHLkLhNADpxCJvxs6u-9" target="0yQHLkLhNADpxCJvxs6u-15">
+          <mxGeometry relative="1" as="geometry"/>
+        </mxCell>
+        <mxCell id="0yQHLkLhNADpxCJvxs6u-36" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.75;exitDx=0;exitDy=0;fontSize=12;" edge="1" parent="1" source="0yQHLkLhNADpxCJvxs6u-9" target="0yQHLkLhNADpxCJvxs6u-15">
+          <mxGeometry relative="1" as="geometry"/>
+        </mxCell>
+        <mxCell id="0yQHLkLhNADpxCJvxs6u-9" value="ROV &amp;lt;-&amp;gt; Base station Comms Manager ROS Node" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#D5E8D4;strokeColor=#d6b656;fontStyle=1" vertex="1" parent="1">
+          <mxGeometry x="210" y="100" width="120" height="80" as="geometry"/>
+        </mxCell>
+        <mxCell id="0yQHLkLhNADpxCJvxs6u-12" value="Base Station Computer" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontStyle=1;fontSize=15;" vertex="1" parent="1">
+          <mxGeometry x="884" y="653" width="170" height="20" as="geometry"/>
+        </mxCell>
+        <mxCell id="0yQHLkLhNADpxCJvxs6u-38" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontSize=12;" edge="1" parent="1" source="0yQHLkLhNADpxCJvxs6u-15" target="0yQHLkLhNADpxCJvxs6u-21">
+          <mxGeometry relative="1" as="geometry"/>
+        </mxCell>
+        <mxCell id="0yQHLkLhNADpxCJvxs6u-15" value="mongodb_store ROS Node" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#D5E8D4;strokeColor=#d6b656;fontStyle=1" vertex="1" parent="1">
+          <mxGeometry x="435" y="280" width="130" height="90" as="geometry"/>
+        </mxCell>
+        <mxCell id="0yQHLkLhNADpxCJvxs6u-39" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;fontSize=12;" edge="1" parent="1" source="0yQHLkLhNADpxCJvxs6u-21" target="0yQHLkLhNADpxCJvxs6u-23">
+          <mxGeometry relative="1" as="geometry"/>
+        </mxCell>
+        <mxCell id="0yQHLkLhNADpxCJvxs6u-21" value="MongoDB Database" style="shape=cylinder;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;fillColor=#e1d5e7;strokeColor=#9673a6;fontStyle=1;" vertex="1" parent="1">
+          <mxGeometry x="442.5" y="513" width="115" height="140" as="geometry"/>
+        </mxCell>
+        <mxCell id="0yQHLkLhNADpxCJvxs6u-31" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="0yQHLkLhNADpxCJvxs6u-23" target="0yQHLkLhNADpxCJvxs6u-25">
+          <mxGeometry relative="1" as="geometry"/>
+        </mxCell>
+        <mxCell id="0yQHLkLhNADpxCJvxs6u-23" value="Data Base To CSV Data Export Script" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#D5E8D4;strokeColor=#d6b656;fontStyle=1" vertex="1" parent="1">
+          <mxGeometry x="630" y="280" width="130" height="90" as="geometry"/>
+        </mxCell>
+        <mxCell id="0yQHLkLhNADpxCJvxs6u-25" value="CSV Data File" style="shape=note;whiteSpace=wrap;html=1;backgroundOutline=1;darkOpacity=0.05;fillColor=#e1d5e7;strokeColor=#9673a6;fontStyle=1" vertex="1" parent="1">
+          <mxGeometry x="960" y="275" width="80" height="100" as="geometry"/>
+        </mxCell>
+        <mxCell id="0yQHLkLhNADpxCJvxs6u-28" value="MongoDB Queries" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontStyle=1" vertex="1" parent="1">
+          <mxGeometry x="500" y="425" width="90" height="20" as="geometry"/>
+        </mxCell>
+        <mxCell id="0yQHLkLhNADpxCJvxs6u-29" value="MongoDB Queries" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontStyle=1" vertex="1" parent="1">
+          <mxGeometry x="565" y="550" width="90" height="20" as="geometry"/>
+        </mxCell>
+        <mxCell id="0yQHLkLhNADpxCJvxs6u-30" value="OS Provided File Writer Stream" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontStyle=1" vertex="1" parent="1">
+          <mxGeometry x="795" y="300" width="130" height="20" as="geometry"/>
+        </mxCell>
+        <mxCell id="0yQHLkLhNADpxCJvxs6u-33" value="Still Frames (ros_image topic)" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=12;fontStyle=1" vertex="1" parent="1">
+          <mxGeometry x="335" y="90" width="190" height="20" as="geometry"/>
+        </mxCell>
+        <mxCell id="0yQHLkLhNADpxCJvxs6u-35" value="Pressure Data (Float32 topic)" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=12;fontStyle=1" vertex="1" parent="1">
+          <mxGeometry x="320" y="170" width="180" height="20" as="geometry"/>
+        </mxCell>
+        <mxCell id="0yQHLkLhNADpxCJvxs6u-37" value="Depth Data (Float32 topic)" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=12;fontStyle=1" vertex="1" parent="1">
+          <mxGeometry x="275" y="275" width="160" height="20" as="geometry"/>
+        </mxCell>
+        <mxCell id="0yQHLkLhNADpxCJvxs6u-40" value="Temperature Data (Float32 topic)" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=12;fontStyle=1" vertex="1" parent="1">
+          <mxGeometry x="230" y="350" width="200" height="20" as="geometry"/>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
