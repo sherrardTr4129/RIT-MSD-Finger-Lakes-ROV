@@ -1,1 +1,112 @@
-<mxfile host="www.draw.io" modified="2019-10-26T19:17:09.188Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/77.0.3865.120 Safari/537.36" version="12.1.7" etag="jOv3vhwNsA98A_FYkYd7" type="github" pages="1"><diagram id="8ERc0LJj5xINiUh8x__f">UzV2zq1wL0osyPDNT0nNUTV2VTV2LsrPL4GwciucU3NyVI0MMlNUjV1UjYwMgFjVyA2HrCFY1qAgsSg1rwSLBiADYTaQg2Y1AA==</diagram></mxfile>
+<mxfile host="www.draw.io" modified="2019-10-26T19:27:38.924Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/77.0.3865.120 Safari/537.36" etag="amymS9sv4MA9ut3PSQh-" version="12.1.7" type="github" pages="1">
+  <diagram id="8ERc0LJj5xINiUh8x__f" name="Page-1">
+    <mxGraphModel dx="1422" dy="794" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1100" pageHeight="850" math="0" shadow="0">
+      <root>
+        <mxCell id="0"/>
+        <mxCell id="1" parent="0"/>
+        <mxCell id="EnsUyJG1f5Y5NScv8Q8N-1" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f5f5f5;strokeColor=#666666;fontColor=#333333;" vertex="1" parent="1">
+          <mxGeometry x="120" y="260" width="900" height="400" as="geometry"/>
+        </mxCell>
+        <mxCell id="EnsUyJG1f5Y5NScv8Q8N-2" value="Base Station Computer" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontStyle=1;fontSize=15;" vertex="1" parent="1">
+          <mxGeometry x="840" y="630" width="170" height="20" as="geometry"/>
+        </mxCell>
+        <mxCell id="EnsUyJG1f5Y5NScv8Q8N-3" value="Tether Interface Board" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;fontStyle=1" vertex="1" parent="1">
+          <mxGeometry x="610" y="710" width="165" height="60" as="geometry"/>
+        </mxCell>
+        <mxCell id="EnsUyJG1f5Y5NScv8Q8N-4" value="&lt;b&gt;ROV&lt;/b&gt;" style="shape=image;html=1;verticalAlign=top;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;imageAspect=0;aspect=fixed;image=https://cdn4.iconfinder.com/data/icons/vehicle-set/64/submarine-128.png" vertex="1" parent="1">
+          <mxGeometry x="932.5" y="676" width="128" height="128" as="geometry"/>
+        </mxCell>
+        <mxCell id="EnsUyJG1f5Y5NScv8Q8N-6" value="" style="endArrow=classic;startArrow=classic;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="EnsUyJG1f5Y5NScv8Q8N-3" target="EnsUyJG1f5Y5NScv8Q8N-4">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="432.5" y="830" as="sourcePoint"/>
+            <mxPoint x="482.5" y="780" as="targetPoint"/>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="EnsUyJG1f5Y5NScv8Q8N-7" value="Twister Pair Tether" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontStyle=1" vertex="1" parent="1">
+          <mxGeometry x="792.5" y="750" width="130" height="20" as="geometry"/>
+        </mxCell>
+        <mxCell id="EnsUyJG1f5Y5NScv8Q8N-8" value="Ethernet Connection" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontStyle=1" vertex="1" parent="1">
+          <mxGeometry x="720" y="676" width="40" height="20" as="geometry"/>
+        </mxCell>
+        <mxCell id="EnsUyJG1f5Y5NScv8Q8N-9" value="" style="endArrow=classic;startArrow=classic;html=1;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="693.5740740740739" y="710" as="sourcePoint"/>
+            <mxPoint x="692" y="659" as="targetPoint"/>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="EnsUyJG1f5Y5NScv8Q8N-10" value="&lt;b&gt;User&lt;/b&gt;" style="shape=umlActor;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;verticalAlign=top;html=1;outlineConnect=0;" vertex="1" parent="1">
+          <mxGeometry x="170" y="720" width="30" height="60" as="geometry"/>
+        </mxCell>
+        <mxCell id="EnsUyJG1f5Y5NScv8Q8N-14" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="EnsUyJG1f5Y5NScv8Q8N-11" target="EnsUyJG1f5Y5NScv8Q8N-13">
+          <mxGeometry relative="1" as="geometry"/>
+        </mxCell>
+        <mxCell id="EnsUyJG1f5Y5NScv8Q8N-11" value="" style="shape=image;html=1;verticalAlign=top;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;imageAspect=0;aspect=fixed;image=https://cdn4.iconfinder.com/data/icons/video-game-adicts/1024/videogame_icons-10-128.png" vertex="1" parent="1">
+          <mxGeometry x="280" y="720" width="78" height="78" as="geometry"/>
+        </mxCell>
+        <mxCell id="EnsUyJG1f5Y5NScv8Q8N-12" value="" style="endArrow=classic;html=1;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="200" y="750" as="sourcePoint"/>
+            <mxPoint x="290" y="750" as="targetPoint"/>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="EnsUyJG1f5Y5NScv8Q8N-24" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="EnsUyJG1f5Y5NScv8Q8N-13" target="EnsUyJG1f5Y5NScv8Q8N-20">
+          <mxGeometry relative="1" as="geometry"/>
+        </mxCell>
+        <mxCell id="EnsUyJG1f5Y5NScv8Q8N-13" value="&lt;b&gt;User Input Collection Subsystem&lt;/b&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="249.5" y="510" width="139" height="100" as="geometry"/>
+        </mxCell>
+        <mxCell id="EnsUyJG1f5Y5NScv8Q8N-15" value="USB Connection" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontStyle=1" vertex="1" parent="1">
+          <mxGeometry x="338" y="676" width="40" height="20" as="geometry"/>
+        </mxCell>
+        <mxCell id="EnsUyJG1f5Y5NScv8Q8N-16" value="Physical Interaction" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontStyle=1" vertex="1" parent="1">
+          <mxGeometry x="220" y="760" width="40" height="20" as="geometry"/>
+        </mxCell>
+        <mxCell id="EnsUyJG1f5Y5NScv8Q8N-27" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.25;exitY=0;exitDx=0;exitDy=0;entryX=0.45;entryY=1.01;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="EnsUyJG1f5Y5NScv8Q8N-20" target="EnsUyJG1f5Y5NScv8Q8N-25">
+          <mxGeometry relative="1" as="geometry"/>
+        </mxCell>
+        <mxCell id="EnsUyJG1f5Y5NScv8Q8N-28" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="EnsUyJG1f5Y5NScv8Q8N-20" target="EnsUyJG1f5Y5NScv8Q8N-26">
+          <mxGeometry relative="1" as="geometry"/>
+        </mxCell>
+        <mxCell id="EnsUyJG1f5Y5NScv8Q8N-20" value="&lt;b&gt;ROV- Base Station Communication Manager Subsytem&lt;/b&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="621" y="510" width="139" height="100" as="geometry"/>
+        </mxCell>
+        <mxCell id="EnsUyJG1f5Y5NScv8Q8N-21" value="" style="endArrow=classic;startArrow=classic;html=1;entryX=0.637;entryY=1.005;entryDx=0;entryDy=0;entryPerimeter=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="EnsUyJG1f5Y5NScv8Q8N-20" target="EnsUyJG1f5Y5NScv8Q8N-1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="500" y="780" as="sourcePoint"/>
+            <mxPoint x="550" y="730" as="targetPoint"/>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="EnsUyJG1f5Y5NScv8Q8N-22" value="TCP/UDP Connection" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontStyle=1" vertex="1" parent="1">
+          <mxGeometry x="720" y="626" width="40" height="20" as="geometry"/>
+        </mxCell>
+        <mxCell id="EnsUyJG1f5Y5NScv8Q8N-25" value="&lt;b&gt;HUD GUI Manager Subsystem&lt;/b&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="249.5" y="325" width="139" height="100" as="geometry"/>
+        </mxCell>
+        <mxCell id="EnsUyJG1f5Y5NScv8Q8N-26" value="&lt;b&gt;Data Archival Subsystem&lt;/b&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="623" y="325" width="139" height="100" as="geometry"/>
+        </mxCell>
+        <mxCell id="EnsUyJG1f5Y5NScv8Q8N-29" value="&lt;b&gt;MongoDB Database Instance&lt;/b&gt;" style="shape=cylinder;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;fillColor=#e1d5e7;strokeColor=#9673a6;" vertex="1" parent="1">
+          <mxGeometry x="857.5" y="320" width="97" height="110" as="geometry"/>
+        </mxCell>
+        <mxCell id="EnsUyJG1f5Y5NScv8Q8N-31" value="" style="endArrow=classic;startArrow=classic;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="EnsUyJG1f5Y5NScv8Q8N-26" target="EnsUyJG1f5Y5NScv8Q8N-29">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="80" y="610" as="sourcePoint"/>
+            <mxPoint x="130" y="560" as="targetPoint"/>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="EnsUyJG1f5Y5NScv8Q8N-32" value="joy rostopic" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontStyle=1" vertex="1" parent="1">
+          <mxGeometry x="460" y="530" width="80" height="20" as="geometry"/>
+        </mxCell>
+        <mxCell id="EnsUyJG1f5Y5NScv8Q8N-33" value="Image, Twist and Float32 rostopics" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontStyle=1" vertex="1" parent="1">
+          <mxGeometry x="410" y="435" width="120" height="20" as="geometry"/>
+        </mxCell>
+        <mxCell id="EnsUyJG1f5Y5NScv8Q8N-34" value="Image and Float32 rostopics" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontStyle=1" vertex="1" parent="1">
+          <mxGeometry x="700" y="457.5" width="120" height="20" as="geometry"/>
+        </mxCell>
+        <mxCell id="EnsUyJG1f5Y5NScv8Q8N-35" value="MongoDB Queries" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontStyle=1" vertex="1" parent="1">
+          <mxGeometry x="792.5" y="350" width="40" height="20" as="geometry"/>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
