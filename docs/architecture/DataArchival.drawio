@@ -1,4 +1,4 @@
-<mxfile host="www.draw.io" modified="2019-10-26T00:03:10.702Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/77.0.3865.120 Safari/537.36" etag="nZMSkJREVukMeuf1-Ap8" version="12.1.7" type="github" pages="1">
+<mxfile host="www.draw.io" modified="2019-10-26T00:05:12.695Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/77.0.3865.120 Safari/537.36" etag="muPyk-qpgi9pGDeZBsM_" version="12.1.7" type="github" pages="1">
   <diagram id="v-m0zCEiFKJnq1W9DyKo" name="Page-1">
     <mxGraphModel dx="1422" dy="794" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1100" pageHeight="850" math="0" shadow="0">
       <root>
@@ -40,7 +40,7 @@
         <mxCell id="0yQHLkLhNADpxCJvxs6u-31" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="0yQHLkLhNADpxCJvxs6u-23" target="0yQHLkLhNADpxCJvxs6u-25">
           <mxGeometry relative="1" as="geometry"/>
         </mxCell>
-        <mxCell id="0yQHLkLhNADpxCJvxs6u-23" value="Data Base To CSV Data Export Script" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#D5E8D4;strokeColor=#d6b656;fontStyle=1" vertex="1" parent="1">
+        <mxCell id="0yQHLkLhNADpxCJvxs6u-23" value="* Database To CSV Data Export Script" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#D5E8D4;strokeColor=#d6b656;fontStyle=1" vertex="1" parent="1">
           <mxGeometry x="630" y="280" width="130" height="90" as="geometry"/>
         </mxCell>
         <mxCell id="0yQHLkLhNADpxCJvxs6u-25" value="CSV Data File" style="shape=note;whiteSpace=wrap;html=1;backgroundOutline=1;darkOpacity=0.05;fillColor=#e1d5e7;strokeColor=#9673a6;fontStyle=1" vertex="1" parent="1">
@@ -66,6 +66,9 @@
         </mxCell>
         <mxCell id="0yQHLkLhNADpxCJvxs6u-40" value="Temperature Data (Float32 topic)" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=12;fontStyle=1" vertex="1" parent="1">
           <mxGeometry x="230" y="350" width="200" height="20" as="geometry"/>
+        </mxCell>
+        <mxCell id="0yQHLkLhNADpxCJvxs6u-41" value="&lt;b&gt;* Note: Database to CSV export script will allow user to select both date ranges and data fields to export.&lt;/b&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=12;" vertex="1" parent="1">
+          <mxGeometry x="670" y="700" width="360" height="20" as="geometry"/>
         </mxCell>
       </root>
     </mxGraphModel>
