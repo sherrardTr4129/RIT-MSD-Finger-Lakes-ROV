@@ -1,1 +1,90 @@
-<mxfile host="www.draw.io" modified="2019-10-26T20:46:26.009Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/77.0.3865.120 Safari/537.36" version="12.1.7" etag="pIkhYpmQOlfg1rl3THB4" type="github" pages="1"><diagram id="W8cZpocfiHcLAD_tHxvC">UzV2zq1wL0osyPDNT0nNUTV2VTV2LsrPL4GwciucU3NyVI0MMlNUjV1UjYwMgFjVyA2HrCFY1qAgsSg1rwSLBiADYTaQg2Y1AA==</diagram></mxfile>
+<mxfile host="www.draw.io" modified="2019-10-26T21:04:33.296Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/77.0.3865.120 Safari/537.36" etag="sNNDN4B1WWLjsPkQBYJ4" version="12.1.7" type="github" pages="1">
+  <diagram id="W8cZpocfiHcLAD_tHxvC" name="Page-1">
+    <mxGraphModel dx="1422" dy="794" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1100" pageHeight="850" math="0" shadow="0">
+      <root>
+        <mxCell id="0"/>
+        <mxCell id="1" parent="0"/>
+        <mxCell id="sJXVZuPwSlJqMMKjxHIy-29" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="sJXVZuPwSlJqMMKjxHIy-2" target="sJXVZuPwSlJqMMKjxHIy-3">
+          <mxGeometry relative="1" as="geometry"/>
+        </mxCell>
+        <mxCell id="sJXVZuPwSlJqMMKjxHIy-2" value="Establish Serial Connection With rosserial bridge" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="70" y="20" width="100" height="100" as="geometry"/>
+        </mxCell>
+        <mxCell id="sJXVZuPwSlJqMMKjxHIy-7" value="&lt;b&gt;Yes&lt;/b&gt;" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="sJXVZuPwSlJqMMKjxHIy-3" target="sJXVZuPwSlJqMMKjxHIy-6">
+          <mxGeometry relative="1" as="geometry"/>
+        </mxCell>
+        <mxCell id="sJXVZuPwSlJqMMKjxHIy-20" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;entryX=1;entryY=0.4;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="sJXVZuPwSlJqMMKjxHIy-3" target="sJXVZuPwSlJqMMKjxHIy-2">
+          <mxGeometry relative="1" as="geometry"/>
+        </mxCell>
+        <mxCell id="sJXVZuPwSlJqMMKjxHIy-21" value="&lt;b&gt;No&lt;/b&gt;" style="text;html=1;resizable=0;points=[];align=center;verticalAlign=middle;labelBackgroundColor=#ffffff;" vertex="1" connectable="0" parent="sJXVZuPwSlJqMMKjxHIy-20">
+          <mxGeometry x="0.2778" y="-1" relative="1" as="geometry">
+            <mxPoint as="offset"/>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="sJXVZuPwSlJqMMKjxHIy-3" value="connected?" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.decision;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="70" y="150" width="100" height="100" as="geometry"/>
+        </mxCell>
+        <mxCell id="sJXVZuPwSlJqMMKjxHIy-10" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="sJXVZuPwSlJqMMKjxHIy-6" target="sJXVZuPwSlJqMMKjxHIy-9">
+          <mxGeometry relative="1" as="geometry"/>
+        </mxCell>
+        <mxCell id="sJXVZuPwSlJqMMKjxHIy-6" value="Check if new Twist message has been received" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="70" y="290" width="100" height="100" as="geometry"/>
+        </mxCell>
+        <mxCell id="sJXVZuPwSlJqMMKjxHIy-24" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="sJXVZuPwSlJqMMKjxHIy-8" target="sJXVZuPwSlJqMMKjxHIy-15">
+          <mxGeometry relative="1" as="geometry"/>
+        </mxCell>
+        <mxCell id="sJXVZuPwSlJqMMKjxHIy-8" value="Check if new light controller command message has been received" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="400" y="290" width="100" height="100" as="geometry"/>
+        </mxCell>
+        <mxCell id="sJXVZuPwSlJqMMKjxHIy-22" value="&lt;b&gt;Yes&lt;/b&gt;" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="sJXVZuPwSlJqMMKjxHIy-9" target="sJXVZuPwSlJqMMKjxHIy-11">
+          <mxGeometry relative="1" as="geometry"/>
+        </mxCell>
+        <mxCell id="sJXVZuPwSlJqMMKjxHIy-23" value="&lt;b&gt;No&lt;/b&gt;" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="sJXVZuPwSlJqMMKjxHIy-9" target="sJXVZuPwSlJqMMKjxHIy-8">
+          <mxGeometry relative="1" as="geometry"/>
+        </mxCell>
+        <mxCell id="sJXVZuPwSlJqMMKjxHIy-9" value="New Twist?" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.decision;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="235" y="290" width="100" height="100" as="geometry"/>
+        </mxCell>
+        <mxCell id="sJXVZuPwSlJqMMKjxHIy-14" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="sJXVZuPwSlJqMMKjxHIy-11" target="sJXVZuPwSlJqMMKjxHIy-8">
+          <mxGeometry relative="1" as="geometry"/>
+        </mxCell>
+        <mxCell id="sJXVZuPwSlJqMMKjxHIy-11" value="Move Thrusters Accordingly" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="235" y="425" width="100" height="100" as="geometry"/>
+        </mxCell>
+        <mxCell id="sJXVZuPwSlJqMMKjxHIy-25" value="&lt;b&gt;Yes&lt;/b&gt;" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="sJXVZuPwSlJqMMKjxHIy-15" target="sJXVZuPwSlJqMMKjxHIy-18">
+          <mxGeometry relative="1" as="geometry"/>
+        </mxCell>
+        <mxCell id="sJXVZuPwSlJqMMKjxHIy-26" value="&lt;b&gt;No&lt;/b&gt;" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="sJXVZuPwSlJqMMKjxHIy-15" target="sJXVZuPwSlJqMMKjxHIy-17">
+          <mxGeometry relative="1" as="geometry"/>
+        </mxCell>
+        <mxCell id="sJXVZuPwSlJqMMKjxHIy-15" value="new light command?" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.decision;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="550" y="290" width="100" height="100" as="geometry"/>
+        </mxCell>
+        <mxCell id="sJXVZuPwSlJqMMKjxHIy-30" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="sJXVZuPwSlJqMMKjxHIy-17" target="sJXVZuPwSlJqMMKjxHIy-28">
+          <mxGeometry relative="1" as="geometry"/>
+        </mxCell>
+        <mxCell id="sJXVZuPwSlJqMMKjxHIy-17" value="Check if new light controller command message has been received" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="710" y="290" width="100" height="100" as="geometry"/>
+        </mxCell>
+        <mxCell id="sJXVZuPwSlJqMMKjxHIy-27" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="sJXVZuPwSlJqMMKjxHIy-18" target="sJXVZuPwSlJqMMKjxHIy-17">
+          <mxGeometry relative="1" as="geometry"/>
+        </mxCell>
+        <mxCell id="sJXVZuPwSlJqMMKjxHIy-18" value="Change Light Controller Parameters Accordingly" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="550" y="420" width="100" height="100" as="geometry"/>
+        </mxCell>
+        <mxCell id="sJXVZuPwSlJqMMKjxHIy-34" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="sJXVZuPwSlJqMMKjxHIy-28" target="sJXVZuPwSlJqMMKjxHIy-31">
+          <mxGeometry relative="1" as="geometry"/>
+        </mxCell>
+        <mxCell id="sJXVZuPwSlJqMMKjxHIy-28" value="Poll All Sensors" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="870" y="290" width="100" height="100" as="geometry"/>
+        </mxCell>
+        <mxCell id="sJXVZuPwSlJqMMKjxHIy-35" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="sJXVZuPwSlJqMMKjxHIy-31" target="sJXVZuPwSlJqMMKjxHIy-6">
+          <mxGeometry relative="1" as="geometry"/>
+        </mxCell>
+        <mxCell id="sJXVZuPwSlJqMMKjxHIy-31" value="Publish All Sensor Data Via rosserial bridge" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="870" y="530" width="100" height="100" as="geometry"/>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
