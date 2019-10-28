@@ -1,1 +1,58 @@
-<mxfile host="www.draw.io" modified="2019-10-28T16:37:02.468Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/77.0.3865.120 Safari/537.36" version="12.1.8" etag="ZzCGrKLa6mTgscPjD5Or" type="github"><diagram id="Q3CVc_P2kGaOehfdc1uV">UzV2zq1wL0osyPDNT0nNUTV2VTV2LsrPL4GwciucU3NyVI0MMlNUjV1UjYwMgFjVyA2HrCFY1qAgsSg1rwSLBiADYTaQg2Y1AA==</diagram></mxfile>
+<mxfile host="www.draw.io" modified="2019-10-28T16:44:40.182Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/77.0.3865.120 Safari/537.36" etag="dUvjFJPzhKRaSl_fafya" version="12.1.8" type="github" pages="1">
+  <diagram id="Q3CVc_P2kGaOehfdc1uV" name="Page-1">
+    <mxGraphModel dx="1422" dy="794" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0"/>
+        <mxCell id="1" parent="0"/>
+        <mxCell id="yKc7J0Fjfv-Z3auwpTWw-2" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f5f5f5;strokeColor=#666666;fontColor=#333333;" vertex="1" parent="1">
+          <mxGeometry x="185" y="60" width="480" height="390" as="geometry"/>
+        </mxCell>
+        <mxCell id="yKc7J0Fjfv-Z3auwpTWw-3" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f5f5f5;strokeColor=#666666;fontColor=#333333;" vertex="1" parent="1">
+          <mxGeometry x="184.5" y="540" width="480" height="260" as="geometry"/>
+        </mxCell>
+        <mxCell id="yKc7J0Fjfv-Z3auwpTWw-5" value="Tether Interface Board" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;fontStyle=1" vertex="1" parent="1">
+          <mxGeometry x="356.5" y="560" width="135" height="70" as="geometry"/>
+        </mxCell>
+        <mxCell id="yKc7J0Fjfv-Z3auwpTWw-6" value="Tether Interface Board" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;fontStyle=1" vertex="1" parent="1">
+          <mxGeometry x="357" y="360" width="135" height="70" as="geometry"/>
+        </mxCell>
+        <mxCell id="yKc7J0Fjfv-Z3auwpTWw-9" value="" style="endArrow=classic;startArrow=classic;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;" edge="1" parent="1" source="yKc7J0Fjfv-Z3auwpTWw-5" target="yKc7J0Fjfv-Z3auwpTWw-6">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="340" y="430" as="sourcePoint"/>
+            <mxPoint x="390" y="380" as="targetPoint"/>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="yKc7J0Fjfv-Z3auwpTWw-10" value="&lt;b&gt;Tether Connection&lt;/b&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="436.5" y="490" width="110" height="20" as="geometry"/>
+        </mxCell>
+        <mxCell id="yKc7J0Fjfv-Z3auwpTWw-11" value="&lt;b&gt;ROV Domain Software (See Diagram)&lt;/b&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="219.5" y="670" width="410" height="110" as="geometry"/>
+        </mxCell>
+        <mxCell id="yKc7J0Fjfv-Z3auwpTWw-13" value="&lt;b&gt;Base Station Domain Software (See Diagram)&lt;/b&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="220" y="90" width="410" height="190" as="geometry"/>
+        </mxCell>
+        <mxCell id="yKc7J0Fjfv-Z3auwpTWw-14" value="" style="endArrow=classic;startArrow=classic;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="yKc7J0Fjfv-Z3auwpTWw-13" target="yKc7J0Fjfv-Z3auwpTWw-6">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="90" y="370" as="sourcePoint"/>
+            <mxPoint x="140" y="320" as="targetPoint"/>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="yKc7J0Fjfv-Z3auwpTWw-15" value="" style="endArrow=classic;startArrow=classic;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;" edge="1" parent="1" source="yKc7J0Fjfv-Z3auwpTWw-11" target="yKc7J0Fjfv-Z3auwpTWw-5">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="99.5" y="620" as="sourcePoint"/>
+            <mxPoint x="149.5" y="570" as="targetPoint"/>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="yKc7J0Fjfv-Z3auwpTWw-16" value="&lt;b&gt;Ethernet Connection&lt;/b&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="436.5" y="640" width="133" height="20" as="geometry"/>
+        </mxCell>
+        <mxCell id="yKc7J0Fjfv-Z3auwpTWw-17" value="&lt;b&gt;Ethernet Connection&lt;/b&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="436.5" y="310" width="133" height="20" as="geometry"/>
+        </mxCell>
+        <mxCell id="yKc7J0Fjfv-Z3auwpTWw-18" value="rosmaster" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;" vertex="1" parent="1">
+          <mxGeometry x="250" y="210" width="120" height="60" as="geometry"/>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
