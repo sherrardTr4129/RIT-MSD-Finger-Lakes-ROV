@@ -1,4 +1,4 @@
-<mxfile host="www.draw.io" modified="2019-10-30T16:36:47.234Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.70 Safari/537.36" etag="ixCeLtwqBcenhbHxjg7-" version="12.1.9" type="github" pages="1">
+<mxfile host="www.draw.io" modified="2019-10-30T16:37:09.022Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.70 Safari/537.36" etag="pqFMsxKnQiqloQ_7dLOD" version="12.1.9" type="github" pages="1">
   <diagram id="dvayOvmPAuLTwOydBaXN" name="Page-1">
     <mxGraphModel dx="1422" dy="794" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1100" pageHeight="850" math="0" shadow="0">
       <root>
@@ -89,7 +89,7 @@
           <mxGeometry x="828" y="250" width="260" height="20" as="geometry"/>
         </mxCell>
         <mxCell id="mYEQ8QdQxq5M0N4z0mq4-8" value="&lt;b&gt;* Note:&lt;/b&gt; HUD Back end will aggregate data from rostopics and video stream into application database. APIs within the flask app in the back end will allow for live data queries from the front end. The front end will also allow historical data export via a PHP and Python CSV Generation script." style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
-          <mxGeometry x="820.5" y="307.5" width="275" height="70" as="geometry"/>
+          <mxGeometry x="813.5" y="307.5" width="275" height="70" as="geometry"/>
         </mxCell>
         <mxCell id="NnIrdN9ldz2jv57Dv1oi-3" value="HTTP Requests" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontStyle=1" vertex="1" parent="1">
           <mxGeometry x="520" y="377.5" width="40" height="20" as="geometry"/>
