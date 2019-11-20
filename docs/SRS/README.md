@@ -1,7 +1,7 @@
-SRS-IEEE
+Finger Lakes Explorer ROV SRS
 ========
 
-A Latex template for a Software Requirements Specification that respects the IEEE standards.
+SRS Documentation for the P20250 Finger Lakes Explorer ROV Project created based on the IEEE format
 
 ## Credits
 
