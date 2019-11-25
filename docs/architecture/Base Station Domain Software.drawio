@@ -1,4 +1,4 @@
-<mxfile host="www.draw.io" modified="2019-11-25T23:13:50.518Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.97 Safari/537.36" etag="JpniNkjkRC8KA_axlWGI" version="12.3.0" type="github" pages="1">
+<mxfile host="www.draw.io" modified="2019-11-25T23:14:01.175Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.97 Safari/537.36" etag="CRdCAvE1dJkZu7Fwohe9" version="12.3.0" type="github" pages="1">
   <diagram id="8ERc0LJj5xINiUh8x__f" name="Page-1">
     <mxGraphModel dx="1422" dy="745" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1100" pageHeight="850" math="0" shadow="0">
       <root>
@@ -8,7 +8,7 @@
           <mxGeometry x="120" y="260" width="900" height="400" as="geometry"/>
         </mxCell>
         <mxCell id="EnsUyJG1f5Y5NScv8Q8N-2" value="Base Station Raspberry Pi" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontStyle=1;fontSize=15;" parent="1" vertex="1">
-          <mxGeometry x="840" y="630" width="170" height="20" as="geometry"/>
+          <mxGeometry x="810" y="630" width="200" height="20" as="geometry"/>
         </mxCell>
         <mxCell id="EnsUyJG1f5Y5NScv8Q8N-3" value="Tether Interface Board" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;fontStyle=1" parent="1" vertex="1">
           <mxGeometry x="610" y="710" width="165" height="60" as="geometry"/>
