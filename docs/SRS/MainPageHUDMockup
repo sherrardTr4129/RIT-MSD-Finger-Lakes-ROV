@@ -1,4 +1,4 @@
-<mxfile host="www.draw.io" modified="2019-12-02T18:07:53.641Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.108 Safari/537.36" etag="4gTJ-G46BiIOwYm4zEEY" version="12.3.4" type="github" pages="1">
+<mxfile host="www.draw.io" modified="2019-12-02T18:16:15.726Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.108 Safari/537.36" etag="rX5YK_4mPsOQ4L3HzORv" version="12.3.4" type="github" pages="1">
   <diagram id="o0YkaNK9MNeTeKQ6p8L-" name="Page-1">
     <mxGraphModel dx="1422" dy="794" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -10,17 +10,17 @@
         <mxCell id="FU_KQjjp7ezg1i-Z0Kuu-8" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f5f5f5;strokeColor=#666666;fontColor=#333333;fontStyle=1" vertex="1" parent="1">
           <mxGeometry x="272" y="60" width="120" height="60" as="geometry"/>
         </mxCell>
-        <mxCell id="FU_KQjjp7ezg1i-Z0Kuu-1" value="&lt;font style=&quot;font-size: 21px&quot;&gt;&lt;b&gt;Live Video Feed&lt;/b&gt;&lt;/font&gt;" style="whiteSpace=wrap;html=1;aspect=fixed;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
-          <mxGeometry x="258.5" y="180" width="390" height="390" as="geometry"/>
+        <mxCell id="FU_KQjjp7ezg1i-Z0Kuu-1" value="&lt;font style=&quot;font-size: 21px&quot;&gt;&lt;b&gt;Live Video Feed&lt;/b&gt;&lt;/font&gt;" style="whiteSpace=wrap;html=1;aspect=fixed;fillColor=#dae8fc;strokeColor=#6c8ebf;fontStyle=4" vertex="1" parent="1">
+          <mxGeometry x="270" y="180" width="360" height="360" as="geometry"/>
         </mxCell>
         <mxCell id="FU_KQjjp7ezg1i-Z0Kuu-2" value="" style="shape=image;html=1;verticalAlign=top;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;imageAspect=0;aspect=fixed;image=https://cdn3.iconfinder.com/data/icons/solid-locations-icon-set/64/Boats_2-128.png" vertex="1" parent="1">
-          <mxGeometry x="268.5" y="440" width="110" height="110" as="geometry"/>
+          <mxGeometry x="272" y="420" width="110" height="110" as="geometry"/>
         </mxCell>
         <mxCell id="FU_KQjjp7ezg1i-Z0Kuu-3" value="" style="shape=mxgraph.signs.animals.fish_hatchery;html=1;fillColor=#000000;strokeColor=none;verticalLabelPosition=bottom;verticalAlign=top;align=center;" vertex="1" parent="1">
-          <mxGeometry x="406.5" y="465" width="97" height="85" as="geometry"/>
+          <mxGeometry x="405" y="445" width="97" height="85" as="geometry"/>
         </mxCell>
         <mxCell id="FU_KQjjp7ezg1i-Z0Kuu-4" value="" style="shape=image;html=1;verticalAlign=top;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;imageAspect=0;aspect=fixed;image=https://cdn2.iconfinder.com/data/icons/flat-vegetables/32/vegetables_flat_6-128.png" vertex="1" parent="1">
-          <mxGeometry x="531.5" y="453" width="117" height="117" as="geometry"/>
+          <mxGeometry x="525" y="433" width="117" height="117" as="geometry"/>
         </mxCell>
         <mxCell id="FU_KQjjp7ezg1i-Z0Kuu-6" value="Main Page" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontStyle=1" vertex="1" parent="1">
           <mxGeometry x="277" y="80" width="110" height="20" as="geometry"/>
@@ -75,6 +75,15 @@
         </mxCell>
         <mxCell id="FU_KQjjp7ezg1i-Z0Kuu-32" value="Connection Lost With ROV!" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=21;fontColor=#EA6B66;" vertex="1" parent="1">
           <mxGeometry x="699.5" y="709.5" width="40" height="20" as="geometry"/>
+        </mxCell>
+        <mxCell id="FU_KQjjp7ezg1i-Z0Kuu-40" value="" style="rounded=0;whiteSpace=wrap;html=1;fontSize=21;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="70" y="180" width="180" height="360" as="geometry"/>
+        </mxCell>
+        <mxCell id="FU_KQjjp7ezg1i-Z0Kuu-41" value="&lt;b style=&quot;font-size: 19px&quot;&gt;List of Executed Commands&lt;/b&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=19;fontStyle=4" vertex="1" parent="1">
+          <mxGeometry x="100" y="210" width="120" height="20" as="geometry"/>
+        </mxCell>
+        <mxCell id="FU_KQjjp7ezg1i-Z0Kuu-42" value="Frame Captured!&lt;br&gt;Right Thruster On!&lt;br&gt;Left Thruster On!&lt;br&gt;Light Setting Changed to 2!&lt;br&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=12;fontColor=#000000;" vertex="1" parent="1">
+          <mxGeometry x="65" y="310" width="185" height="20" as="geometry"/>
         </mxCell>
       </root>
     </mxGraphModel>
