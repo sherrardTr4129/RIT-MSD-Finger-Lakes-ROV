@@ -1,4 +1,4 @@
-<mxfile host="www.draw.io" modified="2019-12-02T18:16:15.726Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.108 Safari/537.36" etag="rX5YK_4mPsOQ4L3HzORv" version="12.3.4" type="github" pages="1">
+<mxfile host="www.draw.io" modified="2019-12-02T18:17:55.227Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.108 Safari/537.36" etag="RGXjqX64Y8Ss3iLZAHH_" version="12.3.4" type="github" pages="1">
   <diagram id="o0YkaNK9MNeTeKQ6p8L-" name="Page-1">
     <mxGraphModel dx="1422" dy="794" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -82,7 +82,7 @@
         <mxCell id="FU_KQjjp7ezg1i-Z0Kuu-41" value="&lt;b style=&quot;font-size: 19px&quot;&gt;List of Executed Commands&lt;/b&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=19;fontStyle=4" vertex="1" parent="1">
           <mxGeometry x="100" y="210" width="120" height="20" as="geometry"/>
         </mxCell>
-        <mxCell id="FU_KQjjp7ezg1i-Z0Kuu-42" value="Frame Captured!&lt;br&gt;Right Thruster On!&lt;br&gt;Left Thruster On!&lt;br&gt;Light Setting Changed to 2!&lt;br&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=12;fontColor=#000000;" vertex="1" parent="1">
+        <mxCell id="FU_KQjjp7ezg1i-Z0Kuu-42" value="Frame Captured!&lt;br&gt;Horizontal Thruster On!&lt;br&gt;Vertical Thruster On!&lt;br&gt;Light Setting Changed to 2!" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=12;fontColor=#000000;" vertex="1" parent="1">
           <mxGeometry x="65" y="310" width="185" height="20" as="geometry"/>
         </mxCell>
       </root>
