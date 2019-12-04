@@ -1,4 +1,4 @@
-<mxfile host="www.draw.io" modified="2019-12-04T18:04:04.435Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.108 Safari/537.36" etag="LPSpEPIz_exb46MTnVMW" version="12.3.6" type="github" pages="1">
+<mxfile host="www.draw.io" modified="2019-12-04T18:13:13.494Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.108 Safari/537.36" etag="DzlR279bht_L9BYnNmBk" version="12.3.6" type="github" pages="1">
   <diagram id="dvayOvmPAuLTwOydBaXN" name="Page-1">
     <mxGraphModel dx="1422" dy="745" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1100" pageHeight="850" math="0" shadow="0">
       <root>
@@ -8,7 +8,7 @@
           <mxGeometry x="35" y="90" width="785" height="430" as="geometry"/>
         </mxCell>
         <mxCell id="P94vjSVfHrpoifT2Vlh4-2" value="Base Station Computer" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontStyle=1;fontSize=15;" parent="1" vertex="1">
-          <mxGeometry x="650" y="500" width="170" height="20" as="geometry"/>
+          <mxGeometry x="648" y="497" width="170" height="20" as="geometry"/>
         </mxCell>
         <mxCell id="B6xwx3ypl9RkdtwZxq9E-2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="P94vjSVfHrpoifT2Vlh4-3" target="P94vjSVfHrpoifT2Vlh4-4">
           <mxGeometry relative="1" as="geometry"/>
@@ -93,6 +93,27 @@
         </mxCell>
         <mxCell id="B6xwx3ypl9RkdtwZxq9E-29" value="E" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontStyle=1" vertex="1" parent="1">
           <mxGeometry x="602.5" y="290" width="40" height="20" as="geometry"/>
+        </mxCell>
+        <mxCell id="B6xwx3ypl9RkdtwZxq9E-30" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f5f5f5;strokeColor=#666666;fontColor=#333333;" vertex="1" parent="1">
+          <mxGeometry x="407" y="570" width="393" height="160" as="geometry"/>
+        </mxCell>
+        <mxCell id="B6xwx3ypl9RkdtwZxq9E-31" value="&lt;b style=&quot;font-size: 19px;&quot;&gt;API KEY&lt;/b&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=19;" vertex="1" parent="1">
+          <mxGeometry x="558.5" y="580" width="88" height="20" as="geometry"/>
+        </mxCell>
+        <mxCell id="B6xwx3ypl9RkdtwZxq9E-32" value="A -&amp;gt; Dive Stop/Start Command. HTTP POST Request" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="399" y="610" width="322" height="20" as="geometry"/>
+        </mxCell>
+        <mxCell id="B6xwx3ypl9RkdtwZxq9E-33" value="B -&amp;gt; Grab New Frame. HTTP GET Request" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="370.5" y="630" width="322" height="20" as="geometry"/>
+        </mxCell>
+        <mxCell id="B6xwx3ypl9RkdtwZxq9E-34" value="C -&amp;gt; Grab Most Recent Data Points. HTTP GET Request" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="406.5" y="650" width="322" height="20" as="geometry"/>
+        </mxCell>
+        <mxCell id="B6xwx3ypl9RkdtwZxq9E-35" value="D -&amp;gt; Grab Most Recent Commands Run. HTTP GET Request" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="414" y="670" width="334" height="20" as="geometry"/>
+        </mxCell>
+        <mxCell id="B6xwx3ypl9RkdtwZxq9E-36" value="E -&amp;gt; Grab Most Recent Messages from ROV. HTTP GET Request" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="408" y="691" width="366" height="20" as="geometry"/>
         </mxCell>
       </root>
     </mxGraphModel>
