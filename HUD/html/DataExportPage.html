@@ -1,0 +1,30 @@
+<head>
+  <link rel='stylesheet' type='text/css' href='../css/HUDNavBar.css'>
+</head>
+
+<!-- The navigation menu -->
+<div class="navbar">
+  <a href="MainHUDPage.html">Main Page</a>
+  <a href="ControllerReferencePage.html">Controller Command Reference Page</a>
+  <a class="active" href="#">Data Export Page</a>
+</div>
+
+<!-- Instantiate two datetime selectors for data export range selection -->
+<!-- Time format seen below is in YYYY-MM-DDTHH:MM Format -->
+<div align="center">
+  <form>
+    <p style="font-size: 2rem"><b>Start Date:</b></p><br>
+    <input type="datetime-local" id="start-datetime" style="font-size: 2rem" 
+         name="start-datetime" value="2020-03-12T19:30"
+         min="2020-02-07T00:00" max="2022-06-14T00:00">
+  
+    <br><p style="font-size: 2rem"><b>End Date:</b></p><br>
+    <input type="datetime-local" id="end-datetime" style="font-size: 2rem"
+         name="end-datetime" value="2020-03-12T19:30"
+         min="2020-02-07T00:00" max="2022-06-14T00:00">
+	
+    <br><br>
+	<input type="button" value="Submit" style="font-size: 2rem">
+
+  </form>
+</div>
