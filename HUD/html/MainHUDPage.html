@@ -1,6 +1,7 @@
 <!-- The navigation menu -->
 <head>
   <link rel='stylesheet' type='text/css' href='../css/HUDNavBar.css'>
+  <link rel='stylesheet' type='text/css' href='../css/MainPageThreeColumn.css'>
 </head>
 
 <div class="navbar">
@@ -8,3 +9,57 @@
   <a href="ControllerReferencePage.html">Controller Command Reference Page</a>
   <a href="DataExportPage.html">Data Export Page</a>
 </div>
+
+<section class="columns">
+	<div class="column" align="center">
+		<h2>List Of Previously Excecuted Commands</h2>
+		<textarea id="commandArea" rows="6" cols="50">
+		1). Start Dive
+		2). Down
+		3). Down
+		4). Take Still Image
+		</textarea>
+	</div>
+
+	<div class="column" align="center">
+		<h2>Live Video Feed</h2>
+		<video src="http://localhost:8080/stream_viewer?topic={ROS_TOPIC}" controls>
+			Your browser does not support the <code>video</code> element.
+		</video>
+	</div>
+
+  <div class="column" align="center">
+		<h2>Dive Control</h2>
+		<form>
+			<input type="button" value="Start Dive!" style="font-size: 1rem">
+			<br><br><br><br>
+			<input type="button" value="Stop Dive!" style="font-size: 1rem">
+		</form>
+
+	</div>
+</section>
+
+<section class="columns">
+	<div class="column" align="center">
+		<h2>ROV Pose Estimation</h2>
+	</div>
+
+	<div class="column" align="center">
+		<h2>Live Mission Data</h2>
+		<textarea id="missionDataArea" rows="6" cols="60">
+		Temperature: 20 C
+		Current Depth: 250 feet
+		Current Pressure: 7470 mBar
+		Current Mission Time: 1h:2m:55s
+		Current Light Setting: 2
+		</textarea>
+	</div>
+
+	<div class="column" align="center">
+		<h2>Messages From ROV</h2>
+		<textarea id="messageArea" rows="4" cols="60">
+		At dive time 1h:2m:30s:
+		Lost Connection With ROV!
+		</textarea>
+	</div>
+</section>
