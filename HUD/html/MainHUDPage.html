@@ -2,6 +2,7 @@
 <head>
   <link rel='stylesheet' type='text/css' href='../css/HUDNavBar.css'>
   <link rel='stylesheet' type='text/css' href='../css/MainPageThreeColumn.css'>
+  <link rel='stylesheet' type='text/css' href='../css/statusLight.css'>
 </head>
 
 <div class="navbar">
@@ -30,12 +31,25 @@
 
   <div class="column" align="center">
 		<h2>Dive Control</h2>
-		<form>
-			<input type="button" value="Start Dive!" style="font-size: 1rem">
-			<br><br><br><br>
-			<input type="button" value="Stop Dive!" style="font-size: 1rem">
-		</form>
+		
+		<button onclick="changeStatusGreen()" style="font-size: 1rem">Start Dive!</button>
+		<br><br><br>
+		<button onclick="changeStatusRed" style="font-size: 1rem">Start Dive!</button>
+		<h2>Dive Status</h2>
+		<p>(Green => Running, Red => Stopped)</p>
+		<div class="indicator" id="StatusLight"></div>
+			
+		<script>
+			function changeStatusRed() {
+				$('indicator').css('background-color', 'red');
+			}
+		</script>
 
+		<script>
+			function changeStatusGreen() {
+				document.getElementById("StatusLight").css('background-color', 'red');
+			}
+		</script>
 	</div>
 </section>
 
