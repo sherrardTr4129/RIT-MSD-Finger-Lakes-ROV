@@ -3,6 +3,7 @@
   <link rel='stylesheet' type='text/css' href='../css/HUDNavBar.css'>
   <link rel='stylesheet' type='text/css' href='../css/MainPageThreeColumn.css'>
   <link rel='stylesheet' type='text/css' href='../css/statusLight.css'>
+  <script language="JavaScript" type="text/javascript" src="../js/textboxSetting.js"></script>
 </head>
 
 <div class="navbar">
@@ -34,22 +35,10 @@
 		
 		<button onclick="changeStatusGreen()" style="font-size: 1rem">Start Dive!</button>
 		<br><br><br>
-		<button onclick="changeStatusRed" style="font-size: 1rem">Start Dive!</button>
+		<button onclick="changeStatusRed()" style="font-size: 1rem">Stop Dive!</button>
 		<h2>Dive Status</h2>
 		<p>(Green => Running, Red => Stopped)</p>
-		<div class="indicator" id="StatusLight"></div>
-			
-		<script>
-			function changeStatusRed() {
-				$('indicator').css('background-color', 'red');
-			}
-		</script>
-
-		<script>
-			function changeStatusGreen() {
-				document.getElementById("StatusLight").css('background-color', 'red');
-			}
-		</script>
+		<div id="indicator"></div>
 	</div>
 </section>
 
