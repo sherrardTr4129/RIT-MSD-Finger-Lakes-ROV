@@ -1,6 +1,6 @@
-#include <ArduinoTcpHardware.h>
 #include <ros.h>
-#include <ArduinoHardware.h>
+#include <std_msgs/Float32.h>
+#include <std_msgs/Float32MultiArray.h>
 
 #include <Wire.h>
 #include <SPI.h>
@@ -9,6 +9,11 @@
 
 // i2c
 Adafruit_LSM9DS1 lsm = Adafruit_LSM9DS1();
+
+// setup ROS node handlers
+ros::NodeHandle  nh;
+std_msgs::Float32MultiArray imu_vector;
+ros::Publisher pub_imu_vec( "imu_data", &imu_vector);
 
 
 void setupSensor()
@@ -21,9 +26,7 @@ void setupSensor()
 
   // 3.) Setup the gyroscope
   lsm.setupGyro(lsm.LSM9DS1_GYROSCALE_245DPS);
-
 }
-
 
 void setup() 
 {
@@ -32,9 +35,9 @@ void setup()
   while (!Serial) {
     delay(1); // will pause Zero, Leonardo, etc until serial console opens
   }
-  
+
   Serial.println("LSM9DS1 data read demo");
-  
+
   // Try to initialise and warn if we couldn't detect the chip
   if (!lsm.begin())
   {
@@ -47,7 +50,7 @@ void setup()
   setupSensor();
 }
 
-void loop() 
+void loop()
 {
   lsm.read();  /* ask it to read in the data */ 
 
