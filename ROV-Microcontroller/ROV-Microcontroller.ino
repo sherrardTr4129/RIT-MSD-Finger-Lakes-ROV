@@ -13,8 +13,22 @@ Adafruit_LSM9DS1 lsm = Adafruit_LSM9DS1();
 // setup ROS node handlers
 ros::NodeHandle  nh;
 std_msgs::Float32MultiArray imu_vector;
-ros::Publisher pub_imu_vec( "imu_data", &imu_vector);
+ros::Publisher pub_imu_vec("imu_data", &imu_vector);
 
+// setup floats for acceleration vector
+float accelX = 0.0;
+float accelY = 0.0;
+float accelZ = 0.0;
+
+// setup floats for magnetometer vector
+float magX = 0.0;
+float magY = 0.0;
+float magZ = 0.0;
+
+// setup floats for gyro vector
+float gyroX = 0.0;
+float gyroY = 0.0;
+float gyroZ = 0.0;
 
 void setupSensor()
 {
@@ -48,6 +62,15 @@ void setup()
 
   // helper to just set the default scaling we want, see above!
   setupSensor();
+
+  // init ROS node
+  nh.initNode();
+
+  // advertise imu publisher
+  nh.advertise(pub_imu_vec);
+
+  // set data length for imu data
+  imu_vector.data_length = 9;
 }
 
 void loop()
@@ -59,18 +82,38 @@ void loop()
 
   lsm.getEvent(&a, &m, &g, &temp); 
 
-  Serial.print("Accel X: "); Serial.print(a.acceleration.x); Serial.print(" m/s^2");
-  Serial.print("\tY: "); Serial.print(a.acceleration.y);     Serial.print(" m/s^2 ");
-  Serial.print("\tZ: "); Serial.print(a.acceleration.z);     Serial.println(" m/s^2 ");
+  // update acceleration vector componenets
+  accelX = a.acceleration.x;
+  accelY = a.acceleration.y;
+  accelZ = a.acceleration.z;
 
-  Serial.print("Mag X: "); Serial.print(m.magnetic.x);   Serial.print(" gauss");
-  Serial.print("\tY: "); Serial.print(m.magnetic.y);     Serial.print(" gauss");
-  Serial.print("\tZ: "); Serial.print(m.magnetic.z);     Serial.println(" gauss");
+  // update magnetometer vector components
+  magX = m.magnetic.x;
+  magY = m.magnetic.y;
+  magZ = m.magnetic.z;
 
-  Serial.print("Gyro X: "); Serial.print(g.gyro.x);   Serial.print(" dps");
-  Serial.print("\tY: "); Serial.print(g.gyro.y);      Serial.print(" dps");
-  Serial.print("\tZ: "); Serial.print(g.gyro.z);      Serial.println(" dps");
+  // update gyro vector components
+  gyroX = g.gyro.x;
+  gyroY = g.gyro.y;
+  gyroZ = g.gyro.z;
 
-  Serial.println();
+  // populate imu_vector with data
+  imu_vector.data[0] = accelX;
+  imu_vector.data[1] = accelY;
+  imu_vector.data[2] = accelZ;
+
+  imu_vector.data[3] = magX;
+  imu_vector.data[4] = magY;
+  imu_vector.data[5] = magZ;
+
+  imu_vector.data[6] = gyroX;
+  imu_vector.data[7] = gyroY;
+  imu_vector.data[8] = gyroZ;
+
+  // publish the vector
+  pub_imu_vec.publish(&imu_vector);
+
+  nh.spinOnce();
+
   delay(200);
 }
