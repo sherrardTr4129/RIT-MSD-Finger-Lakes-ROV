@@ -3,42 +3,31 @@
 #include <std_msgs/Float32MultiArray.h>
 
 #include <Wire.h>
-#include <SPI.h>
 #include <Adafruit_LSM9DS1.h>
 #include <Adafruit_Sensor.h>  // not used in this demo but required!
 
-// i2c
+// macros and pre-proccessor definitions
+#define IMU_MESSAGE_LEN 9
+
+// i2c initialization
 Adafruit_LSM9DS1 lsm = Adafruit_LSM9DS1();
 
 // setup ROS node handlers
 ros::NodeHandle  nh;
+
+// setup ros message body and publisher instance
 std_msgs::Float32MultiArray imu_vector;
 ros::Publisher pub_imu_vec("imu_data", &imu_vector);
 
-// setup floats for acceleration vector
-float accelX = 0.0;
-float accelY = 0.0;
-float accelZ = 0.0;
-
-// setup floats for magnetometer vector
-float magX = 0.0;
-float magY = 0.0;
-float magZ = 0.0;
-
-// setup floats for gyro vector
-float gyroX = 0.0;
-float gyroY = 0.0;
-float gyroZ = 0.0;
-
 void setupSensor()
 {
-  // 1.) Set the accelerometer range
+  // Set the accelerometer range
   lsm.setupAccel(lsm.LSM9DS1_ACCELRANGE_4G);
   
-  // 2.) Set the magnetometer sensitivity
+  // Set the magnetometer sensitivity
   lsm.setupMag(lsm.LSM9DS1_MAGGAIN_4GAUSS);
 
-  // 3.) Setup the gyroscope
+  // Setup the gyroscope
   lsm.setupGyro(lsm.LSM9DS1_GYROSCALE_245DPS);
 }
 
@@ -66,54 +55,47 @@ void setup()
   // init ROS node
   nh.initNode();
 
-  // advertise imu publisher
-  nh.advertise(pub_imu_vec);
+  // setup imu_vector message array
+  imu_vector.layout.dim = (std_msgs::MultiArrayDimension *)
+  malloc(sizeof(std_msgs::MultiArrayDimension) * 2);
+  imu_vector.layout.dim[0].label = "imu_vec";
+  imu_vector.layout.dim[0].size = IMU_MESSAGE_LEN;
+  imu_vector.layout.dim[0].stride = IMU_MESSAGE_LEN;
+  imu_vector.layout.data_offset = 0;
+  imu_vector.data = (float *)malloc(sizeof(float)*IMU_MESSAGE_LEN);
+  imu_vector.data_length = IMU_MESSAGE_LEN;
 
-  // set data length for imu data
-  imu_vector.data_length = 9;
+  // advertise imu_vector publisher
+  nh.advertise(pub_imu_vec);
 }
 
 void loop()
 {
-  lsm.read();  /* ask it to read in the data */ 
+  // attempt to read from sensor
+  lsm.read();
 
-  /* Get a new sensor event */ 
+  // get new sensor event handler
   sensors_event_t a, m, g, temp;
 
+  // update event handlers
   lsm.getEvent(&a, &m, &g, &temp); 
 
-  // update acceleration vector componenets
-  accelX = a.acceleration.x;
-  accelY = a.acceleration.y;
-  accelZ = a.acceleration.z;
+  // populate imu_vector with data from IMU
+  imu_vector.data[0] = a.acceleration.x;
+  imu_vector.data[1] = a.acceleration.y;
+  imu_vector.data[2] = a.acceleration.z;
 
-  // update magnetometer vector components
-  magX = m.magnetic.x;
-  magY = m.magnetic.y;
-  magZ = m.magnetic.z;
+  imu_vector.data[3] = m.magnetic.x;
+  imu_vector.data[4] = m.magnetic.y;
+  imu_vector.data[5] = m.magnetic.z;
 
-  // update gyro vector components
-  gyroX = g.gyro.x;
-  gyroY = g.gyro.y;
-  gyroZ = g.gyro.z;
-
-  // populate imu_vector with data
-  imu_vector.data[0] = accelX;
-  imu_vector.data[1] = accelY;
-  imu_vector.data[2] = accelZ;
-
-  imu_vector.data[3] = magX;
-  imu_vector.data[4] = magY;
-  imu_vector.data[5] = magZ;
-
-  imu_vector.data[6] = gyroX;
-  imu_vector.data[7] = gyroY;
-  imu_vector.data[8] = gyroZ;
+  imu_vector.data[6] = g.gyro.x;
+  imu_vector.data[7] = g.gyro.y;
+  imu_vector.data[8] = g.gyro.z;
 
   // publish the vector
   pub_imu_vec.publish(&imu_vector);
 
   nh.spinOnce();
-
-  delay(200);
+  delay(250);
 }
