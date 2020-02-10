@@ -4,6 +4,6 @@ This directory contains the arduino sketch used to control data aquisition from 
 ## ROS Topics Used Here
 A list of ROS topics, their handle names and their structure can be seen below.
 
-| Topic               | Handle Name   | Message Structure                                                   |
-| :-----------------: | :-----------: | :-----------------------------------------------------------------: |
-| Float32MultiArray   | imu\_data     | data[xAccel, yAccel, zAccel, xMag, yMag, zMag, xGyro, yGyro, zGyro] |
+| Topic               | Handle Name   | Message Structure                                                   | Units of Data (If Applicable)                                     |
+| :-----------------: | :-----------: | :-----------------------------------------------------------------: | :---------------------------------------------------------------: |
+| Float32MultiArray   | imu\_data     | data[xAccel, yAccel, zAccel, xMag, yMag, zMag, xGyro, yGyro, zGyro] | accelerations: m/(s^2), magnetic field: Gauss, gryo data: deg/sec |
