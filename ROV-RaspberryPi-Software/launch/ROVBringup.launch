@@ -2,4 +2,8 @@
 	<node name="serial_node" pkg="rosserial_python" type="serial_node.py">
 	<param name="port" type="string" value="/dev/ttyACM0"/>
 	</node>
+
+	<node name="cam_node" pkg="usb_cam" type="usb_cam_node">
+	<param name="video_device" type="string" value = "/dev/video0"/>
+	</node>
 </launch>
