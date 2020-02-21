@@ -1,3 +1,4 @@
 <launch>
+        <node name="flash_sub_node" pkg="flask_node" type="flask_node.py"></node>
 	<node name="web_video_node" pkg="web_video_server" type="web_video_server"></node>
 </launch>
