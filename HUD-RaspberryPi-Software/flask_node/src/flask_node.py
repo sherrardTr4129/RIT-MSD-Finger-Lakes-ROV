@@ -11,7 +11,10 @@ import time
 import threading
 from std_msgs.msg import Float32MultiArray
 from flask import Flask
+from flask_cors import CORS
+
 app = Flask(__name__)
+CORS(app)
 
 global imuData
 imuData = [0,0,0,0,0,0,0,0,0]
