@@ -10,6 +10,13 @@
 // macros and pre-proccessor definitions
 #define IMU_MESSAGE_LEN 9
 
+// init global state variables updated in subscriber callbacks
+int VertMotionSpeed = 0;
+int HorizontalMotionSpeed = 0;
+int lightSetting = 0;
+int rotationSpeed = 0;
+int cruiseEnabled = 0;
+
 // i2c initialization
 Adafruit_LSM9DS1 lsm = Adafruit_LSM9DS1();
 
@@ -19,6 +26,38 @@ ros::NodeHandle  nh;
 // setup ros message body and publisher instance
 std_msgs::Float32MultiArray imu_vector;
 ros::Publisher pub_imu_vec("imu_data", &imu_vector);
+
+/**************** BEGIN UNTESTED CODE **********************/
+
+// define subscriber callbacks
+void VertMotionSpeedCb(const std_msgs::Int8& msg){
+  VertMotionSpeed = msg.data;
+}
+
+void HorizontalMotionSpeedCb(const std_msgs::Int8& msg){
+  HorizontalMotionSpeed = msg.data;
+}
+
+void LightSettingCb(const std_msgs::Int8& msg){
+  lightSetting = msg.data;
+}
+
+void rotationSpeedCb(const std_msgs::Int8& msg){
+  rotationSpeed = msg.data;
+}
+
+void cruiseEnabledCb(const std_msgs::Int8& msg){
+  cruiseEnabled = msg.data;
+}
+
+// setup ros subcribers
+ros::Subscriber<std_msgs::Int8> VertMotionSpeedSub("VertMotionSpeed", &VertMotionSpeedCb);
+ros::Subscriber<std_msgs::Int8> HorizontalMotionSpeedSub("HorizontalMotionSpeed", &HorizontalMotionSpeedCb);
+ros::Subscriber<std_msgs::Int8> LightSettingSub("LightSetting", &LightSettingCb);
+ros::Subscriber<std_msgs::Int8> rotationSpeedSub("rotationSpeed", &rotationSpeedCb);
+ros::Subscriber<std_msgs::Int8> cruiseEnabledSub("cruiseEnabled", &cruiseEnabledCb);
+
+/**************** END UNTESTED CODE **********************/
 
 void setupSensor()
 {
@@ -68,6 +107,18 @@ void setup()
 
   // advertise imu_vector publisher
   nh.advertise(pub_imu_vec);
+
+/**************** BEGIN UNTESTED CODE **********************/
+
+  // setup subscribers
+  nh.subscribe(VertMotionSpeedSub);
+  nh.subscribe(HorizontalMotionSpeedSub);
+  nh.subscribe(LightSettingSub);
+  nh.subscribe(rotationSpeedSub);
+  nh.subscribe(cruiseEnabledSub);
+
+/**************** END UNTESTED CODE **********************/
+
 }
 
 void loop()
