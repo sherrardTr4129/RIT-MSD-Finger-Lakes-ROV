@@ -1,6 +1,7 @@
 #include <ros.h>
 #include <std_msgs/Float32.h>
 #include <std_msgs/Float32MultiArray.h>
+#include <std_msgs/Int8.h>
 
 #include <Wire.h>
 #include <Adafruit_LSM9DS1.h>

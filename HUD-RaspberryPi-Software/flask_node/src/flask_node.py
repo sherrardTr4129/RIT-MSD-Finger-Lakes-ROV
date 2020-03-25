@@ -10,7 +10,7 @@ import rospy
 import time
 import threading
 from std_msgs.msg import Float32MultiArray
-from std_msgs.msg import Int32
+from std_msgs.msg import Int8
 from flask import Flask
 from flask_cors import CORS
 
@@ -92,12 +92,12 @@ def main():
 
     # start subscribing to imu data
     rospy.Subscriber("/imu_data", Float32MultiArray, imuDataCallback)
-    rospy.Subscriber("/AButtonState", Int32, buttonStateCallback)
-    rospy.Subscriber("/LightSetting", Int32, lightSettingCallback)
-    rospy.Subscriber("/VertMotionSpeed", Int32, VertMotionSpeedCallback)
-    rospy.Subscriber("/HorizontalMotionSpeed", Int32, HoriMotionSpeed)
-    rospy.Subscriber("/rotationSpeed", Int32, rotationSpeedCallback)
-    rospy.Subscriber("/cruiseEnabled", Int32, cruiseControlCallback)
+    rospy.Subscriber("/AButtonState", Int8, buttonStateCallback)
+    rospy.Subscriber("/LightSetting", Int8, lightSettingCallback)
+    rospy.Subscriber("/VertMotionSpeed", Int8, VertMotionSpeedCallback)
+    rospy.Subscriber("/HorizontalMotionSpeed", Int8, HoriMotionSpeed)
+    rospy.Subscriber("/rotationSpeed", Int8, rotationSpeedCallback)
+    rospy.Subscriber("/cruiseEnabled", Int8, cruiseControlCallback)
 
     print("began subscribing to data ...")
 
