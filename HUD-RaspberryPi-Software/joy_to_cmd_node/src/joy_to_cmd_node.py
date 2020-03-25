@@ -1,7 +1,7 @@
 #!/usr/bin/env python
 
 import rospy
-from std_msgs.msg import Int32
+from std_msgs.msg import Int8
 from sensor_msgs.msg import Joy
 
 # define constant values
@@ -78,12 +78,12 @@ def pubCallback(event):
     global A_Button_State, lightSetting, cruiseControlEnabled
     global motorSpeedSettingVert, motorSpeedSettingHorizontal, rotationSpeed, joyStamp
 
-    pubButton = rospy.Publisher("AButtonState", Int32, queue_size=10)
-    pubMotorSpeedVert = rospy.Publisher("VertMotionSpeed", Int32, queue_size=10)
-    pubMotorSpeedHori = rospy.Publisher("HorizontalMotionSpeed", Int32, queue_size=10)
-    pubLightSetting = rospy.Publisher("LightSetting", Int32, queue_size=10)
-    pubRotation = rospy.Publisher("rotationSpeed", Int32, queue_size=10)
-    pubCruiseControl = rospy.Publisher("cruiseEnabled", Int32, queue_size=10)
+    pubButton = rospy.Publisher("AButtonState", Int8, queue_size=10)
+    pubMotorSpeedVert = rospy.Publisher("VertMotionSpeed", Int8, queue_size=10)
+    pubMotorSpeedHori = rospy.Publisher("HorizontalMotionSpeed", Int8, queue_size=10)
+    pubLightSetting = rospy.Publisher("LightSetting", Int8, queue_size=10)
+    pubRotation = rospy.Publisher("rotationSpeed", Int8, queue_size=10)
+    pubCruiseControl = rospy.Publisher("cruiseEnabled", Int8, queue_size=10)
 
     pubButton.publish(A_Button_State)
     pubMotorSpeedVert.publish(motorSpeedSettingVert)
